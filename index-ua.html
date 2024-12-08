@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+        crossorigin="anonymous"></script>
+    <title>ETC Airdrop</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__container">
+                <p class="header__name">ETC</p>
+                <img class="header__logo" src="images/logo.png" alt="Логотип">
+                <nav class="header__nav">
+                    <a href="#home" class="header__link header__link--active">Головна</a>
+                    <a href="#airdrop" class="header__link">Airdrop</a>
+                    <a href="#gallery" class="header__link">Галерея</a>
+                    <a href="#help" class="header__link">Допомога</a>
+                    <a href="https://ethereumclassic.org/" class="header__link" target="_blank">Вебсайт</a>
+                </nav>
+                <div class="header__actions">
+                    <button class="header__button-login">Реєстрація</button>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropdown__button">
+                        <i class="fas fa-globe dropdown__icon"></i>
+                    </button>
+                    <div class="dropdown__content">
+                        <a href="index.html">
+                            <i class="dropdown__icon"></i>EN
+                        </a>
+                        <a href="index-ua.html">
+                            <i class="dropdown__icon"></i>UA
+                        </a>
+                    </div>
+
+
+                    <button class="header__burger" aria-label="Відкрити меню">
+                        <span class="header__burger-line"></span>
+                        <span class="header__burger-line"></span>
+                        <span class="header__burger-line"></span>
+                    </button>
+
+                    <nav class="header__nav header__nav--mobile">
+                        <a href="#home" class="header__link header__link--active">Головна</a>
+                        <a href="#airdrop" class="header__link">Airdrop</a>
+                        <a href="#gallery" class="header__link">Галерея</a>
+                        <a href="#help" class="header__link">Допомога</a>
+                        <a href="https://ethereumclassic.org/" class="header__link" target="_blank">Вебсайт</a>
+                    </nav>
+                </div>
+        </header>
+
+        <section id="home" class="block block--home">
+            <div class="block__content">
+                <h1 class="block__title">Про Ethereum Classic (ETC)</h1>
+                <p class="block__description">
+                    Ethereum Classic (ETC) — це оригінальний блокчейн Ethereum, що виник після розділу через хак
+                    DAO в 2016 році. Він продовжує працювати без змін у протоколі, підкреслюючи незмінність і
+                    децентралізацію. Ethereum Classic дозволяє розробникам створювати децентралізовані додатки
+                    (dApps), використовуючи смарт-контракти.
+                </p>
+                <ul class="block__list">
+                    <li class="block__list-item">ETC орієнтований на підтримку незмінності блокчейну.</li>
+                    <li class="block__list-item">Він використовується для запуску децентралізованих додатків та
+                        смарт-контрактів.</li>
+                    <li class="block__list-item">ETC підтримується відданою спільнотою розробників та майнерів.</li>
+                </ul>
+                <div class="block__actions">
+                    <button class="block__button">Дізнатися більше</button>
+                    <button class="block__button block__button--secondary">Розпочати</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="airdrop" class="airdrop animate-on-scroll">
+            <div class="airdrop__content">
+                <h2 class="airdrop__title">Інформація про Airdrop</h2>
+                <p class="airdrop__details">
+                    <strong>Дата початку:</strong> 10 грудня 2024 року<br>
+                    <strong>Дата завершення:</strong> 10 січня 2025 року<br>
+                    <strong>Загальна кількість токенів:</strong> 10 000 ETC
+                </p>
+                <p class="airdrop__instructions-title">Як взяти участь:</p>
+                <ol class="airdrop__list">
+                    <li class="airdrop__list-item">Підключіть свій гаманець Ethereum Classic.</li>
+                    <li class="airdrop__list-item">Виконайте завдання на офіційній сторінці.</li>
+                    <li class="airdrop__list-item">Отримайте свої токени.</li>
+                </ol>
+                <div class="airdrop__extra-info">
+                    <p class="airdrop__note"><strong>Примітка:</strong> Переконайтесь, що ваш гаманець підключений до
+                        мережі Ethereum Classic, щоб уникнути проблем з отриманням токенів.</p>
+                    <p class="airdrop__social">Слідкуйте за нами на наших <a href="#social"
+                            class="airdrop__link">соціальних
+                            мережах</a> для отримання оновлень.</p>
+                </div>
+                <a href="#register" class="airdrop__button">Взяти участь зараз</a>
+            </div>
+        </section>
+
+        <section id="gallery" class="block block--gallery animate-on-scroll">
+            <div class="block__content">
+                <h2 class="gallery__subtitle">Інсайти токенів</h2>
+                <div class="gallery__cards">
+                    <div class="gallery__card">
+                        <div class="gallery__icon">
+                            <img src="images/price.png" alt="Іконка розподілу">
+                        </div>
+                        <h3 class="gallery__title">Слідкуйте за цінами в реальному часі</h3>
+                        <p class="gallery__description">Отримуйте актуальні зміни ціни Ethereum Classic (ETC)
+                            та інших основних криптовалют.</p>
+                        <a href="https://www.binance.com/uk-UA/price/ethereum-classic" class="gallery__link"
+                            target="_blank">Переглянути ціни →</a>
+                    </div>
+                    <div class="gallery__card">
+                        <div class="gallery__icon">
+                            <img src="images/distrib.png" alt="Іконка розподілу">
+                        </div>
+                        <h3 class="gallery__title">Розподіл токенів</h3>
+                        <p class="gallery__description">Візуалізуйте розподіл токенів та структуру власності Ethereum
+                            Classic.</p>
+                        <a href="https://tokeninsight.com/en/coins/2659/tokenomics" class="gallery__link"
+                            target="_blank">Переглянути розподіл →</a>
+                    </div>
+                    <div class="gallery__card">
+                        <div class="gallery__icon">
+                            <img src="images/defi.png" alt="Іконка DeFi">
+                        </div>
+                        <h3 class="gallery__title">DeFi на ETC</h3>
+                        <p class="gallery__description">
+                            Ethereum Classic підтримує DeFi-додатки, що дозволяють користувачам доступ до
+                            децентралізованих
+                            фінансових послуг та багато іншого.
+                        </p>
+                        <a href="https://defillama.com/chain/EthereumClassic" class="gallery__link"
+                            target="_blank">Дізнатись більше →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="register" class="register animate-on-scroll">
+            <div class="register__content">
+                <h2 class="register__title">Форма реєстрації</h2>
+                <form class="register__form" id="registerForm" autocomplete="off">
+                    <div class="register__field animate-on-scroll">
+                        <label for="name" class="register__label">Ім'я</label>
+                        <input type="text" id="name" name="name" class="register__input" required
+                            placeholder="Введіть ваше ім'я">
+                    </div>
+                    <div class="register__field animate-on-scroll">
+                        <label for="email" class="register__label">Email</label>
+                        <input type="email" id="email" name="email" class="register__input" required
+                            placeholder="Введіть ваш email">
+                    </div>
+                    <div class="register__field animate-on-scroll">
+                        <label for="wallet" class="register__label">Адреса гаманця</label>
+                        <input type="text" id="wallet" name="wallet" class="register__input" required
+                            placeholder="Введіть адресу вашого гаманця (Ethereum/Binance Smart Chain)">
+                    </div>
+                    <button type="submit" class="register__submit-button">Надіслати заявку</button>
+                </form>
+                <div id="confirmationMessage" class="register__confirmation animate-on-scroll" style="display: none;">
+                    <p>Дякуємо за реєстрацію! Ми перевіримо вашу інформацію.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="help" class="help animate-on-scroll">
+            <div class="section__content">
+                <h2 class="section__title">Допомога</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">Як взяти участь в Airdrop?</button>
+                        <div class="accordion-content">
+                            <p>Підключіть свій гаманець Ethereum Classic. Для цього переконайтесь, що у вас є
+                                гаманець, сумісний з мережею ETC (наприклад, MetaMask, Trust Wallet).
+                                <br>Виконайте завдання на офіційній сторінці, включаючи дії в соціальних мережах або
+                                підтвердження участі через форму.
+                                <br>Після завершення завдань ви автоматично отримаєте свої токени. Статус розподілу
+                                можна відстежити на сторінці облікового запису.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Як перевірити баланс і транзакції?</button>
+                        <div class="accordion-content">
+                            <p>Ви можете використовувати Ethereum Classic Block Explorer, наприклад, BlockScout, для
+                                цього введіть адресу вашого гаманця в поле пошуку, щоб переглянути ваш баланс і
+                                транзакції.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Що таке смарт-контракти на ETC?</button>
+                        <div class="accordion-content">
+                            <p>Смарт-контракти — це програми, що автоматично виконують код, коли виконуються певні
+                                умови.
+                                Ethereum Classic підтримує смарт-контракти для децентралізованих додатків (dApps).</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Як вирішити технічні проблеми?</button>
+                        <div class="accordion-content">
+                            <p>Для вирішення проблем з участю в airdrop напишіть на наш офіційний email або зверніться
+                                через соціальні мережі.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div id="scrollToTop" class="scroll-to-top">
+            &#8679;
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__info">
+                <p class="footer__text">&copy; 2024 ETC Airdrop</p>
+                <div class="footer__contacts">
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/groups/327302858703578/?locale=uk_UA" class="footer__link"
+                            target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/eth_classic" class="footer__link" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/ethereum-classic" class="footer__link" target="_blank"
+                            aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav class="footer__nav">
+                <a href="#privacy" class="footer__link">Політика конфіденційності</a>
+                <a href="#terms" class="footer__link">Умови використання</a>
+                <a href="#faq" class="footer__link">FAQ</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

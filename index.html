@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+        crossorigin="anonymous"></script>
+
+    <title>ETC Airdrop</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__container">
+                <p class="header__name">ETC</p>
+                <img class="header__logo" src="images/logo.png" alt="Logo">
+                <nav class="header__nav">
+                    <a href="#home" class="header__link header__link--active">Home</a>
+                    <a href="#airdrop" class="header__link">Airdrop</a>
+                    <a href="#gallery" class="header__link">Gallery</a>
+                    <a href="#help" class="header__link">Help</a>
+                    <a href="https://ethereumclassic.org/" class="header__link" target="_blank">Website</a>
+                </nav>
+                <div class="header__actions">
+                    <button class="header__button-login">Register</button>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropdown__button">
+                        <i class="fas fa-globe dropdown__icon"></i>
+                    </button>
+                    <div class="dropdown__content">
+                        <a href="index.html">
+                            <i class="dropdown__icon"></i>EN
+                        </a>
+                        <a href="index-ua.html">
+                            <i class="dropdown__icon"></i>UA
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Бургер-меню -->
+                <button class="header__burger" aria-label="Open menu">
+                    <span class="header__burger-line"></span>
+                    <span class="header__burger-line"></span>
+                    <span class="header__burger-line"></span>
+                </button>
+
+                <nav class="header__nav header__nav--mobile">
+                    <a href="#home" class="header__link header__link--active">Home</a>
+                    <a href="#airdrop" class="header__link">Airdrop</a>
+                    <a href="#gallery" class="header__link">Gallery</a>
+                    <a href="#help" class="header__link">Help</a>
+                    <a href="https://ethereumclassic.org/" class="header__link" target="_blank">Website</a>
+                </nav>
+            </div>
+        </header>
+
+        <section id="home" class="block block--home">
+            <div class="block__content">
+                <h1 class="block__title">About Ethereum Classic (ETC)</h1>
+                <p class="block__description">
+                    Ethereum Classic (ETC) is the original Ethereum blockchain, which came into existence after a split
+                    following the DAO hack in 2016. It continues to run without any changes to the protocol, emphasizing
+                    immutability and decentralization. Ethereum Classic allows developers to build decentralized
+                    applications (dApps) using smart contracts.
+                </p>
+                <ul class="block__list">
+                    <li class="block__list-item">ETC is focused on maintaining the immutability of the blockchain.</li>
+                    <li class="block__list-item">It is used to power decentralized applications and smart contracts.
+                    </li>
+                    <li class="block__list-item">ETC is supported by a dedicated community of developers and miners.
+                    </li>
+                </ul>
+                <div class="block__actions">
+                    <button class="block__button">Learn More</button>
+                    <button class="block__button block__button--secondary">Get Started</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="airdrop" class="airdrop animate-on-scroll">
+            <div class="airdrop__content">
+                <h2 class="airdrop__title">Airdrop Information</h2>
+                <p class="airdrop__details">
+                    <strong>Start Date:</strong> December 10, 2024<br>
+                    <strong>End Date:</strong> January 10, 2025<br>
+                    <strong>Total Tokens:</strong> 10,000 ETC
+                </p>
+                <p class="airdrop__instructions-title">How to participate:</p>
+                <ol class="airdrop__list">
+                    <li class="airdrop__list-item">Connect your Ethereum Classic wallet.</li>
+                    <li class="airdrop__list-item">Complete the tasks listed on the official page.</li>
+                    <li class="airdrop__list-item">Claim your tokens.</li>
+                </ol>
+                <div class="airdrop__extra-info">
+                    <p class="airdrop__note"><strong>Note:</strong> Ensure your wallet is connected to the Ethereum
+                        Classic
+                        network to avoid issues with claiming tokens.</p>
+                    <p class="airdrop__social">Follow us on our <a href="#social" class="airdrop__link">social media
+                            channels</a> for updates.</p>
+                </div>
+                <a href="#register" class="airdrop__button">Participate Now</a>
+            </div>
+        </section>
+
+        <section id="gallery" class="block block--gallery animate-on-scroll">
+            <div class="block__content">
+                <h2 class="gallery__subtitle">Token Insights</h2>
+                <div class="gallery__cards">
+                    <div class="gallery__card">
+                        <div class="gallery__icon">
+                            <img src="images/price.png" alt="Distribution Icon">
+                        </div>
+                        <h3 class="gallery__title">Real-time Price Tracking</h3>
+                        <p class="gallery__description">Stay updated with real-time price changes of Ethereum Classic
+                            (ETC)
+                            and other major cryptocurrencies.</p>
+                        <a href="https://www.binance.com/uk-UA/price/ethereum-classic" class="gallery__link"
+                            target="_blank">View
+                            Prices
+                            →</a>
+                    </div>
+                    <div class="gallery__card">
+                        <div class="gallery__icon">
+                            <img src="images/distrib.png" alt="Distribution Icon">
+                        </div>
+                        <h3 class="gallery__title">Token Distribution</h3>
+                        <p class="gallery__description">Visualize the token distribution and ownership structure of
+                            Ethereum Classic.</p>
+                        <a href="https://tokeninsight.com/en/coins/2659/tokenomics" class="gallery__link"
+                            target="_blank">See
+                            Breakdown →</a>
+                    </div>
+                    <div class="gallery__card">
+                        <div class="gallery__icon">
+                            <img src="images/defi.png" alt="DeFi Icon">
+                        </div>
+                        <h3 class="gallery__title">DeFi on ETC</h3>
+                        <p class="gallery__description">
+                            Ethereum Classic supports DeFi applications, enabling decentralized financial services and
+                            more.
+                        </p>
+                        <a href="https://defillama.com/chain/EthereumClassic" class="gallery__link"
+                            target="_blank">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="register" class="register animate-on-scroll">
+            <div class="register__content">
+                <h2 class="register__title">Registration Form</h2>
+                <form class="register__form" id="registerForm" autocomplete="off">
+                    <div class="register__field animate-on-scroll">
+                        <label for="name" class="register__label">Name</label>
+                        <input type="text" id="name" name="name" class="register__input" required
+                            placeholder="Enter your name">
+                    </div>
+                    <div class="register__field animate-on-scroll">
+                        <label for="email" class="register__label">Email</label>
+                        <input type="email" id="email" name="email" class="register__input" required
+                            placeholder="Enter your email">
+                    </div>
+                    <div class="register__field animate-on-scroll">
+                        <label for="wallet" class="register__label">Wallet Address</label>
+                        <input type="text" id="wallet" name="wallet" class="register__input" required
+                            placeholder="Enter your wallet address (Ethereum/Binance Smart Chain)">
+                    </div>
+                    <button type="submit" class="register__submit-button">Submit Application</button>
+                </form>
+                <div id="confirmationMessage" class="register__confirmation animate-on-scroll" style="display: none;">
+                    <p>Thank you for register! We will review your information.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="help" class="help animate-on-scroll">
+            <div class="section__content">
+                <h2 class="section__title">Help</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">How to participate in the Airdrop?</button>
+                        <div class="accordion-content">
+                            <p>Connect your Ethereum Classic wallet. Make sure you have a wallet compatible with the ETC
+                                network (e.g., MetaMask, Trust Wallet).<br>Complete the tasks on the official page,
+                                including actions on social media or confirming participation through the form.<br>After
+                                completing the tasks, you will automatically receive your tokens. You can track the
+                                distribution status on your account page.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">How to check your balance and transactions?</button>
+                        <div class="accordion-content">
+                            <p>You can use the Ethereum Classic Block Explorer, such as BlockScout, for this. Enter your
+                                wallet address in the search field to view your balance and transactions.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">What are smart contracts on ETC?</button>
+                        <div class="accordion-content">
+                            <p>Smart contracts are programs that automatically execute code when certain conditions are
+                                met. Ethereum Classic supports smart contracts for decentralized applications (dApps).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">How to resolve technical issues?</button>
+                        <div class="accordion-content">
+                            <p>For issues related to participation in the airdrop, please contact us via our official
+                                email or reach out through our social media channels.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <div id="scrollToTop" class="scroll-to-top">
+            &#8679; <!-- або встав SVG-іконку -->
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__info ">
+                <p class="footer__text">&copy; 2024 ETC Airdrop</p>
+                <div class="footer__contacts">
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/groups/327302858703578/?locale=uk_UA" class="footer__link"
+                            target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/eth_classic" class="footer__link" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/ethereum-classic" class="footer__link" target="_blank"
+                            aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav class="footer__nav">
+                <a href="#privacy" class="footer__link">Privacy Policy</a>
+                <a href="#terms" class="footer__link">Terms of Service</a>
+                <a href="#faq" class="footer__link">FAQ</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
