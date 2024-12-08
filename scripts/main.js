@@ -1,4 +1,4 @@
-// Константи
+
 const registerForm = document.getElementById("registerForm");
 const loginButton = document.querySelector('.header__button-login');
 const walletForm = document.querySelector('.register__form');
@@ -60,7 +60,7 @@ scrollToTopBtn.addEventListener("click", () => {
     });
 });
 
-// Анімація при прокручуванні
+// Анімація при скролі
 document.addEventListener("DOMContentLoaded", () => {
     const elements = document.querySelectorAll(".animate-on-scroll");
 
